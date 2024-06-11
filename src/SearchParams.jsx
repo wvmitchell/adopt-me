@@ -19,9 +19,6 @@ const SearchParams = function () {
   function handleSearchSubmit(e) {
     e.preventDefault();
     const formData = new FormData(e.target);
-    console.log(formData.get("location"));
-    console.log(formData.get("animal"));
-    console.log(formData.get("breed"));
     setRequestParams({
       location: formData.get("location"),
       animal: formData.get("animal"),
