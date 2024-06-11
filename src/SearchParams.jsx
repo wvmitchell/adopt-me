@@ -24,6 +24,9 @@ const SearchParams = function () {
 
   return (
     <div className="search-params">
+      {
+        // todo: extract form to its own component
+      }
       <form
         onSubmit={(e) => {
           e.preventDefault();
